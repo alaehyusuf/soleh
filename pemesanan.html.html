@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html	lang="en">
+<head>
+	<title>Tugas Pemrograman web</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</head>
+<style>
+	body {
+    background-color: red	;
+}
+</style>
+<body>
+<div class="container">
+<table>
+	<tr>
+		<td colspan=2 height=125> <img src="foto.png" width="1110" height="250"></td>
+	</tr>
+<div class="jumboron text-center">
+		<h1 style="text-align:center;"><b>TOKO BUKU KITA</b></h1>
+		<p style="text-align:center;">sebuah toko yang memanjakan para pecinta membaca</p>
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="HTML.html">BukuKita.com</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="#"><a href="HTML.html">Home</a></li>
+        <li class="dropdown">
+          <a class=" dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Jenis Buku <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="pendidikan.html">Pendidikan</a></li>
+            <li><a href="novel.html">Novel</a></li>
+            <li><a href="cerita.html">Cerita</a></li>
+			<li><a href="puisi.html">Puisi</a></li>
+			<li><a href="sejarah.html">sejarah</a></li>
+          </ul>
+        </li>
+        <li class="active"><a href="pemesanan.html">Pemesanan</a></li>
+        <li><a href="tentang.html">tentang</a></li>
+		<li><a href="profil.html">profil</a></li>
+      </ul>
+	  <form class="navbar-form navbar-left" action="/action_page.php">
+  </div>
+</nav>
+<div class="container">
+  <h2>Form pemesanan buku</h2>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="name">Nama:</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+    </div>
+    <div class="form-group">
+      <label for="address">Alamat:</label>
+      <input type="address" class="form-control" id="adress" placeholder="Enter address" name="address">
+    </div>
+	<div class="form-group">
+      <label for="number">No hp:</label>
+      <input type="number" class="form-control" id="number" placeholder="Enter number" name="number">
+    </div>
+	<div class="form-group">
+      <label for="email">E mail:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="checkbox">
+	<div class="form-group">
+      <label for="message">judul buku:</label>
+      <input type="message" class="form-control" id="message" placeholder="Enter message" name="message">
+    </div>
+	<div class="form-group">
+      <label for="message-box">ket:</label>
+      <input type="message-box" class="form-control" id="message-box" placeholder="Enter message-box" name="message-box">
+    </div>
+    </div>
+    <button type="sent" class="btn btn-default">KIRIM</button>
+  </form>
+</div>
+</div>
+</div>
+
+
+
+<footer class="site-footer">
+		<div class="container" style="background-color:white">
+		<P style ="text-align:center;">Copy right ALAEH YUSUF EKA TRI TANTO</p>
+		</div>
+	</footer>
+</body>
+</html>
